@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bentil WordBeater||Game</title>
+    <!-- boostrap links -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4912ae6e3d.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="">
+    <header class="bg-secondary text-center p-3 mb-5">
+        <h2 class="text-warning">Bentil WordBeater</h2>
+        <!-- <small class="text-danger">Note : IF YOU ARE USING A PHONE PLEASE MAKE SURE YOU FIRST LETTER IS NOT CAPITALIZED</small> -->
+    </header>
+    <div class="container text-center">
+        <!-- word input -->
+        <div class="row">
+            <div class="col-md-6 mx-auto">
+                <div class="start-screen my-3">
+                        <button class="btn btn-outline-success btn-block font-weight-bold" id="btnStart">Start Game</button>
+                </div>
+                <div class="board">
+                    <p class="lead">type the given word within <span class="text-success" id="seconds">10</span> seconds: </p>
+                    <h2 class="display-3 mb-3 " id="current-word">__________</h2>
+                    <div class="form-group">
+                      <input type="text" class="form-control form-control-lg"  id="word-input"  placeholder="start typing...!">
+                      <h4 id="messages" class="mt-2"></h4>
+                      <!-- <button class="btn btn-info mt-2" id="restart">Restart</button> -->
+    
+    
+                      <!-- time & date Columns -->
+                      <div class="row mt-1">
+                          <div class="col-md-6">
+                              <h3>Time left: <span id="time">0</span>s</h3>
+                          </div>
+                            <div class="col-md-6">
+                                <h3>Your Score: <span id="score">0</span> pts</h3>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- instructions -->
+                <div class="row mt-auto mb-1">
+                    <div class="col-md-12">
+                        <div class="card card-body bg-secondary text-white">
+                            <h5>Instructions</h5>
+                            <p>Type each word in the given amount of second to score. to play again, just type the current word. Your score will rest</p>
+                            <p class="text-warning"> <i class="fas fa-copyright" aria-hidden="true">bentilzone - 2020</i></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    
+
+
+
+
+
+    <script src="./js/words.js"></script>
+    <script src="./js/App.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>

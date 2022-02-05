@@ -1,0 +1,35 @@
+/* .board{
+    display: none;
+}
+.start-screen{
+    border: 1px solid #0f0;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 27%;
+} */
+body{
+    height: 100vh;
+    overflow: hidden;
+}
+.start-screen .btn{
+    border: 1px solid #0f0;
+    transition: 1s ease-in-out;
+    animation: changeBackground 1s ease-in;
+}
+.btn:hover{
+    color: #fff !important;
+    cursor: pointer;
+    outline: none !important;
+}
+#restart{
+    display: none;
+}
+/* @webkit-animation changeBackground{
+    0%{background: #f00;}
+    20%{background: rgb(0, 217, 255);}
+    45%{background: rgb(255, 251, 0);}
+    70%{background: rgb(39, 0, 129);}
+    100%{background: rgb(234, 0, 255);}
+} */
