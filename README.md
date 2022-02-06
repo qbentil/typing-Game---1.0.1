@@ -10,3 +10,8 @@ Tech Stack USED
 1. HTML
 2. CSS
 3. **JavaScript**
+
+For more functionalites of this Game, Check the current version below
+# UPDATE
+## Latest Release: <a href = "https://github.com/qbentil/CS50x-Final-Project">Current Released Version</a>
+## Demo: <a href = "https:pukkawordbeater.netlify.app" target = "_blank">Demo</a>
